@@ -124,11 +124,13 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias vim="nvim"
+alias vvim="/usr/bin/vim"
 alias c='g++ -Wall -Wconversion -Wfatal-errors -g -std=c++14 -O2 -static'
 alias air='~/.air'
 alias sdocker='sudo systemctl start docker'
 alias rzsh='source ~/.zshrc'
 alias config='git --git-dir=~/.config --work-tree=~'
+alias beep='paplay /usr/share/sounds/deepin/stereo/dialog-error.wav'
 
 # Android 
 export ANDROID_HOME=$HOME/Android/Sdk
